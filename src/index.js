@@ -55,7 +55,7 @@ class Todo {
 
   static deleteTask(id) {
     const tasks = Store.getTasks();
-    const newTasks = tasks.filter((element) => element.index != id);
+    const newTasks = tasks.filter((element) => element.index !== id);
     Store.reAssignIndex(newTasks);
     Todo.displayTask();
   }
@@ -96,7 +96,7 @@ document.querySelector('.enterArrow').addEventListener('click', add);
 
 document.querySelector('.clear').addEventListener('click', () => {
   const tasks = Store.getTasks();
-  const newTasks = tasks.filter((element) => element.completed == false);
+  const newTasks = tasks.filter((element) => element.completed === false);
   Store.reAssignIndex(newTasks);
   Todo.displayTask();
 });

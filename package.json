@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "gh-pages": "^3.2.3",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "html-webpack-plugin": "^5.5.0"
   }
 }
