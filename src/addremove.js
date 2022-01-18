@@ -35,7 +35,7 @@ class Store {
   static editInput(val, id) {
     const tasks = Store.getTasks();
     tasks.forEach((todo) => {
-      if (todo.index == id) {
+      if (todo.index === id) {
         todo.task = val;
       }
     });

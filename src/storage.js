@@ -19,7 +19,7 @@ class Storage {
   static checkCompleted(id) {
     const completed = Store.getTasks();
     completed.forEach((task) => {
-      if (task.index == id) {
+      if (task.index === id) {
         task.completed = true;
       }
     });
@@ -34,7 +34,7 @@ class Storage {
       element.nextElementSibling.firstElementChild.classList.remove('checked');
       const todo = Store.getTasks();
       todo.forEach((task) => {
-        if (task.index == element.id) {
+        if (task.index === element.id) {
           task.completed = false;
         }
       });
