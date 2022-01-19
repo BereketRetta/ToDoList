@@ -1,10 +1,10 @@
 body {
-  background: linear-gradient(to bottom, rgb(255, 168, 117), rgb(67, 218, 100, 0.6));
+  background: #e29578;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .title-container {
@@ -50,6 +50,8 @@ hr {
 
 .enterArrow {
   color: rgb(131, 127, 127);
+  font-size: 1.6rem;
+  font-weight: bolder;
 }
 
 ::placeholder {
@@ -107,16 +109,15 @@ button {
 }
 
 .btn {
-  background-color: rgb(245, 233, 233);
+  background-color: #fff;
   width: 100%;
   border: none;
   padding: 15px 0;
   font-size: 15px;
-  color: rgb(131, 127, 127);
 }
 
 .btn .clear {
-  color: rgb(88, 88, 88);
+  color: rgb(77, 77, 77);
   text-decoration: none;
 }
 
