@@ -1,5 +1,5 @@
 body {
- background: #e29578;
+  background: #e29578;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,7 +109,7 @@ button {
 }
 
 .btn {
-  background-color: #ffffff;
+  background-color: #fff;
   width: 100%;
   border: none;
   padding: 15px 0;
