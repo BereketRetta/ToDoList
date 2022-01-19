@@ -1,10 +1,10 @@
 body {
-  background: #e29578;
+  background: linear-gradient(to bottom, rgb(255, 168, 117), rgb(67, 218, 100, 0.6));
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .title-container {
@@ -32,11 +32,6 @@ main {
   padding: 6px 12px;
 }
 
-input {
-  outline: none;
-  border: none;
-}
-
 hr {
   color: rgb(131, 127, 127);
   margin: 0;
@@ -50,8 +45,6 @@ hr {
 
 .enterArrow {
   color: rgb(131, 127, 127);
-  font-size: 1.6rem;
-  font-weight: bolder;
 }
 
 ::placeholder {
@@ -75,52 +68,27 @@ hr {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgb(131, 127, 127);
-  padding: 0.2rem 0;
-}
-
-.items.checked {
-  text-decoration: line-through;
-  opacity: 0.5;
-}
-
-.checkbox {
-  margin: 5px;
 }
 
 .list-container span {
   display: flex;
-  justify-content: space-between;
-  width: 95%;
+  align-items: center;
+  margin-left: 27px;
 }
 
-.list-container span .items {
-  width: 100%;
-  padding: 13px 0;
+.items {
+  padding-left: 20px;
 }
 
-button {
-  padding: 5px 10px;
-  border: none;
-  background: transparent;
-}
-
-.delete {
-  color: red;
+.fa-ellipsis-v {
+  margin-right: 27px;
 }
 
 .btn {
-  background-color: #fff;
+  background-color: rgb(245, 233, 233);
   width: 100%;
   border: none;
   padding: 15px 0;
   font-size: 15px;
-}
-
-.btn .clear {
-  color: rgb(77, 77, 77);
-  text-decoration: none;
-}
-
-.btn .clear:hover {
-  text-decoration: underline;
+  color: rgb(131, 127, 127);
 }
