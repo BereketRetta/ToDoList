@@ -6,6 +6,7 @@ class Store {
     } else {
       tasks = JSON.parse(localStorage.getItem('tasks'));
     }
+
     return tasks;
   }
 
